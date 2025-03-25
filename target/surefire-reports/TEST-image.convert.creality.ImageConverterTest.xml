@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="image.convert.creality.ImageConverterTest" time="1.838" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Users/yyuewang/code2024/ImageConvert/demo/target/test-classes:/Users/yyuewang/code2024/ImageConvert/demo/target/classes:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-core/3.9.4/imageio-core-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/common/common-lang/3.9.4/common-lang-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/common/common-io/3.9.4/common-io-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/common/common-image/3.9.4/common-image-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-metadata/3.9.4/imageio-metadata-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-jpeg/3.9.4/imageio-jpeg-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-tiff/3.9.4/imageio-tiff-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-bmp/3.9.4/imageio-bmp-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-webp/3.9.4/imageio-webp-3.9.4.jar:/Users/yyuewang/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/yyuewang/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/yyuewang/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/yyuewang/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/yyuewang/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/yyuewang/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/yyuewang/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yyuewang/code2024/ImageConvert/demo/target/surefire/surefirebooter-20250325120131814_3.jar /Users/yyuewang/code2024/ImageConvert/demo/target/surefire 2025-03-25T12-01-31_666-jvmRun1 surefire-20250325120131814_1tmp surefire_0-20250325120131814_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="ImageConverterTest#testAllNoExtensionFiles"/>
+    <property name="surefire.test.class.path" value="/Users/yyuewang/code2024/ImageConvert/demo/target/test-classes:/Users/yyuewang/code2024/ImageConvert/demo/target/classes:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-core/3.9.4/imageio-core-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/common/common-lang/3.9.4/common-lang-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/common/common-io/3.9.4/common-io-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/common/common-image/3.9.4/common-image-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-metadata/3.9.4/imageio-metadata-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-jpeg/3.9.4/imageio-jpeg-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-tiff/3.9.4/imageio-tiff-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-bmp/3.9.4/imageio-bmp-3.9.4.jar:/Users/yyuewang/.m2/repository/com/twelvemonkeys/imageio/imageio-webp/3.9.4/imageio-webp-3.9.4.jar:/Users/yyuewang/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/yyuewang/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/yyuewang/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/yyuewang/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/yyuewang/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/yyuewang/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/yyuewang/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yyuewang"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/yyuewang/code2024/ImageConvert/demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/yyuewang/code2024/ImageConvert/demo/target/surefire/surefirebooter-20250325120131814_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="yyuewang"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/yyuewang/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/q_/_40gh26j2rsbpnbkklknwctw0000gs/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/yyuewang/code2024/ImageConvert/demo"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yyuewang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testAllNoExtensionFiles" classname="image.convert.creality.ImageConverterTest" time="1.778">
+    <system-out><![CDATA[已清空输出目录: src/test/resource/tmpoutput
+测试输出目录: /Users/yyuewang/code2024/ImageConvert/demo/src/test/resource/tmpoutput
+测试所有无后缀图片处理
+测试文件: 1.png
+支持的图片格式:
+警告: 可能不支持 jfif 格式
+系统支持的图片格式列表:
+- JPG
+- cur
+- tiff
+- bmp
+- bigtiff
+- wbp
+- gif
+- WBMP
+- PNG
+- JPEG
+- BigTIFF
+- tif
+- TIFF
+- ico
+- jpeg
+- wbmp
+- jpeg-lossless
+- jpg
+- CUR
+- BMP
+- WBP
+- GIF
+- png
+- BIGTIFF
+- JPEG-LOSSLESS
+- webp
+- TIF
+- ICO
+- WEBP
+通过文件签名识别为: png
+成功直接读取图片
+成功转换: 1.png (无后缀) -> src/test/resource/tmpoutput/from_no_extension_1.png
+测试文件: 2.png
+通过文件签名识别为: png
+成功直接读取图片
+成功转换: 2.png (无后缀) -> src/test/resource/tmpoutput/from_no_extension_2.png
+测试文件: computer.jpg
+通过文件签名识别为: jpeg
+成功直接读取图片
+成功转换: computer.jpg (无后缀) -> src/test/resource/tmpoutput/from_no_extension_computer.png
+测试文件: Egale.gif
+通过文件签名识别为: gif
+成功直接读取图片
+成功转换: Egale.gif (无后缀) -> src/test/resource/tmpoutput/from_no_extension_Egale.png
+测试文件: grass.bmp
+通过文件签名识别为: bmp
+成功直接读取图片
+成功转换: grass.bmp (无后缀) -> src/test/resource/tmpoutput/from_no_extension_grass.png
+测试文件: photo.webp
+通过文件签名识别为: webp
+成功直接读取图片
+成功转换: photo.webp (无后缀) -> src/test/resource/tmpoutput/from_no_extension_photo.png
+测试文件: sample_jfif.jfif
+通过文件签名识别为: jpeg
+成功直接读取图片
+成功转换: sample_jfif.jfif (无后缀) -> src/test/resource/tmpoutput/from_no_extension_sample_jfif.png
+测试文件: sample_tiff_640.tiff
+通过文件签名识别为: tiff
+成功直接读取图片
+成功转换: sample_tiff_640.tiff (无后缀) -> src/test/resource/tmpoutput/from_no_extension_sample_tiff_640.png
+]]></system-out>
+  </testcase>
+</testsuite>

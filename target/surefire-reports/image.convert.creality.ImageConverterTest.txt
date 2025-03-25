@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: image.convert.creality.ImageConverterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.838 s -- in image.convert.creality.ImageConverterTest
